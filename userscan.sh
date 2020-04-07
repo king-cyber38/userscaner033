@@ -1,23 +1,23 @@
 #!/bin/bash
+# UserRecon v1.6
+# Author: @kingcyber38
+# https://github.com/king-cyber38/user-scan
 
+trap 'printf "\n";partial;exit 1' 2
 
 banner() {
 
 
 
-printf "          | |  | |/ ____|  ____|  __ \   / ____|/ ____|   /\   | \ | |  
-printf "          | |  | | (___ | |__  | |__) | | (___ | |       /  \  |  \| | 
-printf "          | |  | |\___ \|  __| |  _  /   \___ \| |      / /\ \ | . ` | 
-printf "          | |__| |____) | |____| | \ \   ____) | |____ / ____ \| |\  | 
-printf "           \____/|_____/|______|_|  \_\ |_____/ \_____/_/    \_\_| \_|                                          
-printf "                                        
-printf " 
-printf "                       ***********************************
-printf "                         *** POWERED BY KING-CYBER38 ***
-printf "                           ***************************
-printf "                             ****** user scan ******
-printf "                               *******************                 
-printf "                                 **** v 2.0 ****             
+printf "     | |  | |/ ____|  ____|  __ \   / ____|/ ____|   /\   | \ | |
+printf "     | |  | | (___ | |__  | |__) | | (___ | |       /  \  |  \| |
+printf "     | |  | |\___ \|  __| |  _  /   \___ \| |      / /\ \ | . ` |
+printf "     | |__| |____) | |____| | \ \   ____) | |____ / ____ \| |\  |
+printf "      \____/|_____/|______|_|  \_\ |_____/ \_____/_/    \_\_| \_|
+printf "                      POWERED BY KING-CYBER38
+printf "                       instagram:kingcyber38
+printf "                               v 1.6
+printf "
                                                 
 
 
