@@ -1,7 +1,8 @@
 #!/bin/bash
-# UserRecon v1.6
-# Author: @kingcyber38
-# https://github.com/king-cyber38/user-scan
+# UserRecon v1.0
+# Author: @linux_choice
+# https://github.com/thelinuxchoice/userrecon
+# Give me the credits if you use any part of this code, read the License.
 
 trap 'printf "\n";partial;exit 1' 2
 
@@ -9,15 +10,15 @@ banner() {
 
 
 
-printf "     | |  | |/ ____|  ____|  __ \   / ____|/ ____|   /\   | \ | |
-printf "     | |  | | (___ | |__  | |__) | | (___ | |       /  \  |  \| |
-printf "     | |  | |\___ \|  __| |  _  /   \___ \| |      / /\ \ | . ` |
-printf "     | |__| |____) | |____| | \ \   ____) | |____ / ____ \| |\  |
-printf "      \____/|_____/|______|_|  \_\ |_____/ \_____/_/    \_\_| \_|
-printf "                      POWERED BY KING-CYBER38
-printf "                       instagram:kingcyber38
-printf "                               v 1.6
-printf "
+printf "                                                   \e[1;92m.-\"\"\"\"-. \e[0m\n"
+printf "                                                  \e[1;92m/        \ \e[0m\n"
+printf "\e[1;77m  _   _               ____                       \e[0m\e[1;92m/_        _\ \e[0m\n"
+printf "\e[1;77m | | | |___  ___ _ __|  _ \ ___  ___ ___  _ __  \e[0m\e[1;92m// \      / \\ \e[0m\n"
+printf "\e[1;77m | | | / __|/ _ \ '__| |_) / _ \/ __/ _ \| '_ \ \e[0m\e[1;92m|\__\    /__/| \e[0m\n"
+printf "\e[1;77m | |_| \__ \  __/ |  |  _ <  __/ (_| (_) | | | | \e[0m\e[1;92m\    ||    / \e[0m\n"
+printf "\e[1;77m  \___/|___/\___|_|  |_| \_\___|\___\___/|_| |_|  \e[0m\e[1;92m\        / \e[0m\n"
+printf "                   \e[1;92mv1.0, Author: @linux_choice  \e[0m   \e[1;92m\  __  / \e[0m\n"
+printf "                                                    \e[1;92m'.__.' \e[0m\n"
                                                 
 
 
