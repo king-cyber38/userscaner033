@@ -1,8 +1,8 @@
 #!/bin/bash
 # UserRecon v1.0
-# Author: @linux_choice
-# https://github.com/thelinuxchoice/userrecon
-# Give me the credits if you use any part of this code, read the License.
+# Author: @king-cyber38
+# https://github.com/king-cyber38/userscan13
+
 
 trap 'printf "\n";partial;exit 1' 2
 
