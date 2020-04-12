@@ -94,6 +94,19 @@ elif [[ $check_youtube == *'0'* ]]; then
 printf "\e[1;93mNot Found!\e[0m\n"
 fi
 
+##RUBIKA
+
+rintf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] RUBIKA: \e[0m"
+check_RUBIKA=$(curl -s "https://rubika.ir/$username" -L -H "Accept-Language: en" | grep -o 'not found'; echo $?)
+
+
+if [[ $check_face == *'1'* ]]; then
+printf "\e[1;92m Found!\e[0m https://rubika.ir/%s\n" $username
+printf "https://rubika.ir/%s\n" $username >> $username.txt
+elif [[ $check_face == *'0'* ]]; then
+printf "\e[1;93mNot Found!\e[0m\n"
+fi
+
 ## BLOGGER
 
 printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Blogger: \e[0m"
